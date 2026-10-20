@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Trabajos | Diseñador Gráfico</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Iconos Phosphor -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-gray-900/80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-black tracking-wider bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
+                DISEÑO<span class="text-indigo-400">.</span>
+            </a>
+            
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
+                <a href="index.html#sobre-mi" class="hover:text-indigo-400 transition-colors">Sobre Mí</a>
+                <a href="index.html#habilidades" class="hover:text-indigo-400 transition-colors">Habilidades</a>
+                <a href="trabajos.html" class="text-indigo-400 font-bold border-b-2 border-indigo-500 pb-1">Mis Trabajos</a>
+                <a href="index.html#servicios" class="hover:text-indigo-400 transition-colors">Servicios</a>
+                <a href="index.html#contacto" class="hover:text-indigo-400 transition-colors">Contacto</a>
+            </nav>
+
+            <a href="index.html#contacto" class="hidden sm:inline-flex items-center px-5 py-2.5 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 font-semibold text-white hover:shadow-lg hover:shadow-indigo-500/30 transition-all">
+                Contrátame
+            </a>
+        </div>
+    </header>
+
+    <!-- Galería Principal Segmentada -->
+    <main class="flex-grow pt-32 pb-20 max-w-7xl mx-auto px-6 w-full space-y-20">
+        
+        <div class="text-center max-w-2xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white">Galería de Proyectos</h1>
+            <p class="text-gray-400 mt-3">Explora mis trabajos organizados por categoría. Haz clic en cualquier imagen para verla en pantalla completa.</p>
+        </div>
+
+        <!-- 1. CANVA IA -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-indigo-500/10 text-indigo-400 flex items-center justify-center text-xl font-bold">01</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Canva IA</h2>
+                    <p class="text-xs text-gray-400">Generación y edición asistida por inteligencia artificial.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all hover:-translate-y-1 shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative">
+                        <img src="foto1.jpg" alt="Canva IA 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-indigo-950/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <span class="px-4 py-2 bg-indigo-600/90 text-white rounded-full text-sm font-semibold flex items-center gap-2"><i class="ph ph-magnifying-glass-plus text-lg"></i> Ampliar</span>
+                        </div>
+                    </div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Canva IA - Diseño 1</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all hover:-translate-y-1 shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative">
+                        <img src="foto2.jpg" alt="Canva IA 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-indigo-950/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <span class="px-4 py-2 bg-indigo-600/90 text-white rounded-full text-sm font-semibold flex items-center gap-2"><i class="ph ph-magnifying-glass-plus text-lg"></i> Ampliar</span>
+                        </div>
+                    </div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Canva IA - Diseño 2</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all hover:-translate-y-1 shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative">
+                        <img src="foto3.jpg" alt="Canva IA 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-indigo-950/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <span class="px-4 py-2 bg-indigo-600/90 text-white rounded-full text-sm font-semibold flex items-center gap-2"><i class="ph ph-magnifying-glass-plus text-lg"></i> Ampliar</span>
+                        </div>
+                    </div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Canva IA - Diseño 3</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. CURSO DE FOTOGRAFÍA -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center text-xl font-bold">02</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Curso de Fotografía</h2>
+                    <p class="text-xs text-gray-400">Prácticas de composición, iluminación y captura profesional.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all hover:-translate-y-1 shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative">
+                        <img src="foto4.jpg" alt="Curso Fotografía 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-indigo-950/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <span class="px-4 py-2 bg-indigo-600/90 text-white rounded-full text-sm font-semibold flex items-center gap-2"><i class="ph ph-magnifying-glass-plus text-lg"></i> Ampliar</span>
+                        </div>
+                    </div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Fotografía - Toma 1</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all hover:-translate-y-1 shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative">
+                        <img src="foto5.jpg" alt="Curso Fotografía 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-indigo-950/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <span class="px-4 py-2 bg-indigo-600/90 text-white rounded-full text-sm font-semibold flex items-center gap-2"><i class="ph ph-magnifying-glass-plus text-lg"></i> Ampliar</span>
+                        </div>
+                    </div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Fotografía - Toma 2</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. DISEÑO PANINI -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-pink-500/10 text-pink-400 flex items-center justify-center text-xl font-bold">03</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Diseño Panini</h2>
+                    <p class="text-xs text-gray-400">Proyecto conceptual y maquetación estilo álbum Panini.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all hover:-translate-y-1 shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative">
+                        <img src="foto6.jpg" alt="Diseño Panini" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-indigo-950/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <span class="px-4 py-2 bg-indigo-600/90 text-white rounded-full text-sm font-semibold flex items-center gap-2"><i class="ph ph-magnifying-glass-plus text-lg"></i> Ampliar</span>
+                        </div>
+                    </div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Diseño Panini - Arte Final</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. EDICIÓN CITIZEN -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl font-bold">04</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Edición Citizen</h2>
+                    <p class="text-xs text-gray-400">Trabajos de retoque digital y edición publicitaria.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all hover:-translate-y-1 shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative">
+                        <img src="foto7.jpg" alt="Edición Citizen 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-indigo-950/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <span class="px-4 py-2 bg-indigo-600/90 text-white rounded-full text-sm font-semibold flex items-center gap-2"><i class="ph ph-magnifying-glass-plus text-lg"></i> Ampliar</span>
+                        </div>
+                    </div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Citizen - Edición 1</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. FOTOS TEATRO -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl font-bold">05</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Fotos Teatro</h2>
+                    <p class="text-xs text-gray-400">Cobertura fotográfica de eventos y obras teatrales.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all hover:-translate-y-1 shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative">
+                        <img src="foto8.jpg" alt="Fotos Teatro 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-indigo-950/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <span class="px-4 py-2 bg-indigo-600/90 text-white rounded-full text-sm font-semibold flex items-center gap-2"><i class="ph ph-magnifying-glass-plus text-lg"></i> Ampliar</span>
+                        </div>
+                    </div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Teatro - Escena 1</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. FOTOS VIVIAN -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl font-bold">06</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Fotos Vivian</h2>
+                    <p class="text-xs text-gray-400">Sesión de fotos y retrato personalizado.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all hover:-translate-y-1 shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative">
+                        <img src="foto9.jpg" alt="Fotos Vivian 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-indigo-950/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <span class="px-4 py-2 bg-indigo-600/90 text-white rounded-full text-sm font-semibold flex items-center gap-2"><i class="ph ph-magnifying-glass-plus text-lg"></i> Ampliar</span>
+                        </div>
+                    </div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Vivian - Retrato 1</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. REELS DE INSTAGRAM -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-rose-500/10 text-rose-400 flex items-center justify-center text-xl font-bold">07</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Reels de Instagram</h2>
+                    <p class="text-xs text-gray-400">Contenido audiovisual y portadas para Instagram Reels.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all hover:-translate-y-1 shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative">
+                        <img src="foto10.jpg" alt="Reels Instagram 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-indigo-950/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <span class="px-4 py-2 bg-indigo-600/90 text-white rounded-full text-sm font-semibold flex items-center gap-2"><i class="ph ph-magnifying-glass-plus text-lg"></i> Ampliar</span>
+                        </div>
+                    </div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Reel - Portada 1</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. REVISTA -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-teal-500/10 text-teal-400 flex items-center justify-center text-xl font-bold">08</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Revista</h2>
+                    <p class="text-xs text-gray-400">Diseño editorial, maquetación y diagramación de páginas de revista.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all hover:-translate-y-1 shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative">
+                        <img src="foto11.jpg" alt="Revista 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-indigo-950/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                            <span class="px-4 py-2 bg-indigo-600/90 text-white rounded-full text-sm font-semibold flex items-center gap-2"><i class="ph ph-magnifying-glass-plus text-lg"></i> Ampliar</span>
+                        </div>
+                    </div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Revista - Portada / Editorial</h3></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- VISOR MODAL (LIGHTBOX) -->
+    <div id="imageModal" class="fixed inset-0 z-50 bg-black/90 hidden backdrop-blur-md flex items-center justify-center p-4">
+        <button id="closeModal" class="absolute top-6 right-6 text-white text-4xl hover:text-indigo-400 transition-colors z-10">
+            <i class="ph ph-x"></i>
+        </button>
+        <img id="modalImg" src="" alt="Imagen ampliada" class="max-w-full max-h-[90vh] rounded-xl shadow-2xl object-contain">
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-gray-800 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-gray-500 text-sm">&copy; 2026 Todos los derechos reservados.</p>
+            <div class="flex space-x-6 text-gray-400 text-xl">
+                <a href="#" class="hover:text-indigo-400"><i class="ph ph-instagram-logo"></i></a>
+                <a href="#" class="hover:text-indigo-400"><i class="ph ph-behance-logo"></i></a>
+                <a href="#" class="hover:text-indigo-400"><i class="ph ph-dribbble-logo"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

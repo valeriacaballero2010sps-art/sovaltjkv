@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Trabajos | Diseñador Gráfico</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Iconos Phosphor -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-gray-900/80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-black tracking-wider bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
+                DISEÑO<span class="text-indigo-400">.</span>
+            </a>
+            
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
+                <a href="index.html#sobre-mi" class="hover:text-indigo-400 transition-colors">Sobre Mí</a>
+                <a href="index.html#habilidades" class="hover:text-indigo-400 transition-colors">Habilidades</a>
+                <a href="trabajos.html" class="text-indigo-400 font-bold border-b-2 border-indigo-500 pb-1">Mis Trabajos</a>
+                <a href="index.html#servicios" class="hover:text-indigo-400 transition-colors">Servicios</a>
+                <a href="index.html#contacto" class="hover:text-indigo-400 transition-colors">Contacto</a>
+            </nav>
+
+            <a href="index.html#contacto" class="hidden sm:inline-flex items-center px-5 py-2.5 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 font-semibold text-white hover:shadow-lg hover:shadow-indigo-500/30 transition-all">
+                Contrátame
+            </a>
+        </div>
+    </header>
+
+    <!-- Galería Principal Segmentada -->
+    <main class="flex-grow pt-32 pb-20 max-w-7xl mx-auto px-6 w-full space-y-16">
+        
+        <div class="text-center max-w-2xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white">Galería de Proyectos</h1>
+            <p class="text-gray-400 mt-3">Haz clic en cualquier imagen para verla en pantalla completa.</p>
+        </div>
+
+        <!-- 1. PHOTOSHOP VIVIAN (foto1 a foto8) -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-indigo-500/10 text-indigo-400 flex items-center justify-center text-xl font-bold">01</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Photoshop Vivian</h2>
+                    <p class="text-xs text-gray-400">Fotos 1 a 8</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto1.jpg" alt="Foto 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 1</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto2.jpg" alt="Foto 2" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 2</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto3.jpg" alt="Foto 3" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 3</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto4.jpg" alt="Foto 4" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 4</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto5.jpg" alt="Foto 5" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 5</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto6.jpg" alt="Foto 6" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 6</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto7.jpg" alt="Foto 7" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 7</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto8.jpg" alt="Foto 8" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 8</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. EDICIÓN MÁGICA (foto9 a foto13) -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center text-xl font-bold">02</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Edición Mágica</h2>
+                    <p class="text-xs text-gray-400">Fotos 9 a 13</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto9.jpg" alt="Foto 9" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 9</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto10.jpg" alt="Foto 10" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 10</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto11.jpg" alt="Foto 11" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 11</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto12.jpg" alt="Foto 12" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 12</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto13.jpg" alt="Foto 13" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 13</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. CITIZEN (foto14) -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-pink-500/10 text-pink-400 flex items-center justify-center text-xl font-bold">03</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Citizen</h2>
+                    <p class="text-xs text-gray-400">Foto 14</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto14.jpg" alt="Foto 14" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 14</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. FOTOS DEL TEATRO (foto15 a foto19) -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl font-bold">04</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Fotos del Teatro</h2>
+                    <p class="text-xs text-gray-400">Fotos 15 a 19</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto15.jpg" alt="Foto 15" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 15</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto16.jpg" alt="Foto 16" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 16</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto17.jpg" alt="Foto 17" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 17</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto18.jpg" alt="Foto 18" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 18</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto19.jpg" alt="Foto 19" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 19</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PORTADA (foto20) -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl font-bold">05</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Portada</h2>
+                    <p class="text-xs text-gray-400">Foto 20</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto20.jpg" alt="Foto 20" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 20</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. REELS DE INSTAGRAM (foto21 a foto23) -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-rose-500/10 text-rose-400 flex items-center justify-center text-xl font-bold">06</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Reels de Instagram</h2>
+                    <p class="text-xs text-gray-400">Fotos 21 a 23</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto21.jpg" alt="Foto 21" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 21</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto22.jpg" alt="Foto 22" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 22</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto23.jpg" alt="Foto 23" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 23</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. DISEÑO MUNDIAL (foto24) -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl font-bold">07</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Diseño Mundial</h2>
+                    <p class="text-xs text-gray-400">Foto 24</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto24.jpg" alt="Foto 24" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 24</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. DIBUJOS DE PHOTOSHOP (foto25, foto27, foto28) -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-teal-500/10 text-teal-400 flex items-center justify-center text-xl font-bold">08</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Dibujos de Photoshop</h2>
+                    <p class="text-xs text-gray-400">Fotos 25, 27 y 28</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto25.jpg" alt="Foto 25" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 25</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto27.jpg" alt="Foto 27" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 27</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto28.jpg" alt="Foto 28" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 28</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. PORTADA DE FANTASÍA (foto26) -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-fuchsia-500/10 text-fuchsia-400 flex items-center justify-center text-xl font-bold">09</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Portada de Fantasía</h2>
+                    <p class="text-xs text-gray-400">Foto 26</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto26.jpg" alt="Foto 26" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 26</h3></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. PROYECTOS ADICIONALES (foto29 a foto31) -->
+        <section class="space-y-6">
+            <div class="border-b border-gray-800 pb-4 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-lg bg-violet-500/10 text-violet-400 flex items-center justify-center text-xl font-bold">10</div>
+                <div>
+                    <h2 class="text-2xl font-bold text-white">Proyectos Finales</h2>
+                    <p class="text-xs text-gray-400">Fotos 29 a 31</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto29.jpg" alt="Foto 29" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 29</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto30.jpg" alt="Foto 30" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 30</h3></div>
+                </div>
+                <div class="work-card group cursor-pointer bg-gray-800/90 rounded-2xl overflow-hidden border border-gray-700/80 hover:border-indigo-500 transition-all shadow-lg">
+                    <div class="w-full aspect-[4/3] bg-gray-950 overflow-hidden relative"><img src="foto31.jpg" alt="Foto 31" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></div>
+                    <div class="p-4"><h3 class="font-bold text-gray-200">Foto 31</h3></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- VISOR MODAL (LIGHTBOX) -->
+    <div id="imageModal" class="fixed inset-0 z-50 bg-black/90 hidden backdrop-blur-md flex items-center justify-center p-4">
+        <button id="closeModal" class="absolute top-6 right-6 text-white text-4xl hover:text-indigo-400 transition-colors z-10">
+            <i class="ph ph-x"></i>
+        </button>
+        <img id="modalImg" src="" alt="Imagen ampliada" class="max-w-full max-h-[90vh] rounded-xl shadow-2xl object-contain">
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-gray-800 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-gray-500 text-sm">&copy; 2026 Todos los derechos reservados.</p>
+            <div class="flex space-x-6 text-gray-400 text-xl">
+                <a href="#" class="hover:text-indigo-400"><i class="ph ph-instagram-logo"></i></a>
+                <a href="#" class="hover:text-indigo-400"><i class="ph ph-behance-logo"></i></a>
+                <a href="#" class="hover:text-indigo-400"><i class="ph ph-dribbble-logo"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
